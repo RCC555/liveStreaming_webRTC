@@ -9,7 +9,7 @@ function StreamPlayer({ onLogout }) {
       </button>
       <div className="card shadow w-100" style={{ maxWidth: '896px' }}>
         <iframe
-          src= {import.meta.env.VIRE_NGROK_URL} // Replace with your ngrok URL
+          src= "https://neutral-plainly-badger.ngrok-free.app" // Replace with your ngrok URL
           className="w-100"
           style={{ height: '60vh' }}
           title="Live Stream"
